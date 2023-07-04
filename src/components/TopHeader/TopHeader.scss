@@ -1,0 +1,33 @@
+.top-header{
+    margin-bottom: 0;
+}
+.social-link{
+    height: 0;
+    width: 74%;
+    background-color: black;
+    border-top: 50px solid black;
+    transform: skew(42deg);
+    margin-left: -28px;
+
+}
+.contact-info{
+    height: 0px;
+    width: 30%;
+    background-color: rebeccapurple;
+    border-top: 50px solid red;
+    border-left: 45px solid transparent;
+    margin-left: 70%;
+    margin-top: -50px;
+}
+.social-icon-top{
+    margin-top: -50px;
+    color: #fff;
+    margin-left: 10px;
+}
+.social-icon-top span{
+   float: left;
+   margin: 20px;
+}
+
+
+

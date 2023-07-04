@@ -1,0 +1,68 @@
+.footer-head{
+    height: 80px;
+    background-color: red;
+}
+.footer-section{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+}
+.footer-section::before{
+    content: '';
+    background-image: url(../../assets/images/shop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.20;
+}
+
+.footer-button{
+    border-radius: 0%;
+    border: 2px solid white;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer-section h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.footer-section small{
+    position: relative;
+    color: red;
+}
+.footer-section span{
+    position: relative;
+}
+.social-icon{
+    font-size: 10px;
+    margin-top: 10px;
+    
+}
+.face-icon{
+    margin-left: 20px;
+}
+.instra-icon{
+    margin-left: 20px;
+}
+.linkedin-icon{
+    margin-left: 20px;
+}
+.footer-end{
+    height: 50px;
+    background-color: black;
+    color: white;
+}

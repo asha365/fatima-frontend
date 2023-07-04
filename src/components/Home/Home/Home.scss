@@ -1,0 +1,41 @@
+
+//sass variable
+$header-bgcolor: rgb(14, 12, 12);
+$menubar-bg: orange; 
+$header-color: white;
+$logo-height: 55px;
+$logo-width: 150px;
+
+
+
+//use sass mixin 
+@mixin head-style{
+    font-size: 40px;
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.header-navbar{
+    background-color: $header-bgcolor;
+    color: $header-color;
+}
+
+.logo{
+   height: $logo-height;
+   width: $logo-width;
+}
+
+//import sass mixin
+.logo-text{
+    @include head-style();
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+ .menu-bar li:hover{
+    background-color: $menubar-bg;
+    color: white;
+ }

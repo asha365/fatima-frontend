@@ -1,0 +1,264 @@
+.social-link {
+  height: 0;
+  width: 74%;
+  background-color: black;
+  border-top: 50px solid black;
+  transform: skew(42deg);
+  margin-left: -28px;
+}
+
+.contact-info {
+  height: 0px;
+  width: 30.1%;
+  background-color: rebeccapurple;
+  border-top: 50px solid red;
+  border-left: 45px solid transparent;
+  margin-left: 70%;
+  margin-top: -50px;
+}
+
+.social-icon-top {
+  margin-top: -57px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.social-icon-top span {
+  float: left;
+  margin: 20px;
+
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .social-link {
+    height: 0;
+    width: 64.9%;
+    background-color: black;
+    border-top: 50px solid black;
+    transform: skew(42deg);
+    margin-left: -28px;
+  }
+  
+  .contact-info {
+    height: 0px;
+    width: 50%;
+    background-color: rebeccapurple;
+    border-top: 50px solid red;
+    border-left: 40px solid transparent;
+    margin-left: 50%;
+    margin-top: -50px;
+  }
+  .social-icon-top {
+    margin-top: -57px;
+    color: #fff;
+    margin-left: 10px;
+  }
+  .social-icon-top span {
+    float: left;
+    margin: 10px;
+    padding-top: 15px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .social-link {
+  height: 0;
+  width: 70.1%;
+  background-color: black;
+  border-top: 50px solid black;
+  transform: skew(42deg);
+  margin-left: -28px;
+}
+
+.contact-info {
+  height: 0px;
+  width: 40.1%;
+  background-color: rebeccapurple;
+  border-top: 50px solid red;
+  border-left: 45px solid transparent;
+  margin-left: 60%;
+  margin-top: -50px;
+}
+
+.social-icon-top {
+  margin-top: -57px;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.social-icon-top span {
+  float: left;
+  margin: 15px;
+  padding-top: 10px;
+
+}
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .social-link {
+    height: 0;
+    width: 70.1%;
+    background-color: black;
+    border-top: 50px solid black;
+    transform: skew(42deg);
+    margin-left: -28px;
+  }
+  
+  .contact-info {
+    height: 0px;
+    width: 39%;
+    background-color: rebeccapurple;
+    border-top: 50px solid red;
+    border-left: 45px solid transparent;
+    margin-left: 61%;
+    margin-top: -50px;
+  }
+  
+  .social-icon-top {
+    margin-top: -57px;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .social-icon-top span {
+    float: left;
+    margin: 20px;
+  
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .social-link {
+    height: 0;
+    width: 70.1%;
+    background-color: black;
+    border-top: 50px solid black;
+    transform: skew(42deg);
+    margin-left: -28px;
+  }
+  
+  .contact-info {
+    height: 0px;
+    width: 39%;
+    background-color: rebeccapurple;
+    border-top: 50px solid red;
+    border-left: 45px solid transparent;
+    margin-left: 61%;
+    margin-top: -50px;
+  }
+  
+  .social-icon-top {
+    margin-top: -57px;
+    color: #fff;
+    margin-left: 28px;
+  }
+  
+  .social-icon-top span {
+    float: left;
+    margin: 20px;
+  }
+  
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .social-link {
+    height: 0;
+    width: 70.1%;
+    background-color: black;
+    border-top: 50px solid black;
+    transform: skew(42deg);
+    margin-left: -28px;
+  }
+  
+  .contact-info {
+    height: 0px;
+    width: 35%;
+    background-color: rebeccapurple;
+    border-top: 50px solid red;
+    border-left: 45px solid transparent;
+    margin-left: 65%;
+    margin-top: -50px;
+  }
+  
+  .social-icon-top {
+    margin-top: -57px;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .social-icon-top span {
+    float: left;
+    margin: 20px;
+  }
+}
+  
+  
+
+
+
+/*Media query mobile device*/
+/* @media screen and (max-width: 480px) {
+  .social-link {
+    height: 0;
+    width: 64%;
+    background-color: black;
+    border-top: 50px solid black;
+    transform: skew(42deg);
+    margin-left: -28px;
+  }
+  
+  .contact-info {
+    height: 0px;
+    width: 50%;
+    background-color: rebeccapurple;
+    border-top: 50px solid red;
+    border-left: 45px solid transparent;
+    margin-left: 50%;
+    margin-top: -50px;
+  }
+  .social-icon-top {
+    margin-top: -57px;
+    color: #fff;
+    margin-left: 10px;
+  }
+  .social-icon-top span {
+    float: left;
+    margin: 10px;
+    padding-top: 15px;
+  }
+}
+ */

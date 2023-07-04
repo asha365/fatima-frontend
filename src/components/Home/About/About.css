@@ -1,0 +1,165 @@
+.about-image{
+    height: 400px;
+}
+.about-image img{
+    height: 400px;
+}
+.about-button1{
+    border-radius: 0%;
+    background-color: red;
+    border: none;
+}
+.about-button2{
+    border-radius: 0%;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+.card-headline{
+    font-weight: bold;
+    color: #3E3E3E;   
+    font-size: 37px;
+}
+.card-text{
+    color: #3E3E3E;
+    text-align: justify;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .about-image{
+        height: 400px;
+        width: 100%;
+    }
+    .about-image img{
+        height: 400px;
+        width: 100%;
+    }
+    .about-card{
+        width: 100%;
+    }
+    .card-headline{
+        font-weight: bold;
+        color: #3E3E3E; 
+        text-align: center;
+        font-size: 29px;
+        float: left;
+    }
+    .card-text{
+        color: #3E3E3E;
+        text-align: justify;
+    }
+    .about-button1{
+        border-radius: 0%;
+        background-color: red;
+        border: none;
+    }
+    .about-button2{
+        border-radius: 0%;
+        border: 2px solid red;
+        background-color: white;
+        color: red;
+        font-weight: bold;
+    }
+
+  }
+
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .about-image{
+        height: 400px;
+        width: 100%;
+    }
+    .about-image img{
+        height: 400px;
+        width: 100%;
+    }
+    .about-card{
+        width: 100%;
+    }
+    .card-headline{
+        font-weight: bold;
+        color: #3E3E3E; 
+        text-align: center;
+        font-size: 29px;
+        float: left;
+    }
+    .card-text{
+        color: #3E3E3E;
+        text-align: justify;
+    }
+    .button{
+        text-align: center;
+    }
+    .about-button1{
+        border-radius: 0%;
+        background-color: red;
+        border: none;
+    }
+    .about-button2{
+        border-radius: 0%;
+        border: 2px solid red;
+        background-color: white;
+        color: red;
+        font-weight: bold;
+    }
+    
+  }
+
+  /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .about-image{
+        height: 400px;
+        width: 100%;
+    }
+    .about-image img{
+        height: 400px;
+        width: 100%;
+    }
+    .about-card{
+        width: 100%;
+    }
+    .card-headline{
+        font-weight: bold;
+        color: #3E3E3E; 
+        text-align: center;
+        font-size: 29px;
+        float: left;
+    }
+    .card-text{
+        color: #3E3E3E;
+        text-align: justify;
+    }
+    .button{
+        text-align: center;
+    }
+    .about-button1{
+        border-radius: 0%;
+        background-color: red;
+        border: none;
+    }
+    .about-button2{
+        border-radius: 0%;
+        border: 2px solid red;
+        background-color: white;
+        color: red;
+        font-weight: bold;
+    }
+    
+  }

@@ -1,0 +1,136 @@
+/*****************Sales css*****************/
+.sales-image{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: red;
+}
+.sales-image::before {
+    content: '';
+    background-image: url(../../../assets/images/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.30;
+   
+}
+.sales-image img{
+    align-items: center;
+    color: white;
+}
+.sales-image h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.sales-image{
+    text-align: center;
+    color: white;
+}
+
+.icon1{
+    text-align: center;
+    margin-left: 160px;
+    font-size: 80px;
+}
+
+
+/**************Rental css******************/
+
+.rental-image{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+}
+.rental-image::before {
+    content: '';
+    background-image: url(../../../assets/images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.20;
+   
+}
+.rental-image img{
+    align-items: center;
+    color: white;
+}
+.rental-image h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.rental-image{
+    text-align: center;
+    color: white;
+}
+
+.icon2{
+    text-align: center;
+    margin-left: 160px;
+    font-size: 80px;
+}
+
+/**************services css******************/
+.service-image{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(57, 54, 54);
+}
+.service-image::before {
+    content: '';
+    background-image: url(../../../assets/images/protection-cap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.20;
+   
+}
+.service-image img{
+    align-items: center;
+    color: white;
+}
+.service-image h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.service-image{
+    text-align: center;
+    color: white;
+}
+
+.icon3{
+    text-align: center;
+    margin-left: 160px;
+    font-size: 80px;
+}
